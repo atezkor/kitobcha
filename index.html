@@ -94,7 +94,7 @@
     <footer class="quti">
         <div class="past">
             <p>
-                Mualliflik huquqi &copy; 2017-2024 <a href="mailto:anvarindastries@gmail.com">Anvar Zaripboyev</a>.
+                Mualliflik huquqi &copy; 2017-<span id="year">2024</span> <a href="mailto:anvarindastries@gmail.com">Anvar Zaripboyev</a>.
             </p>
             <p>
                 Taklif va murojaatlar qa&#8217;bul qilinadi!
@@ -103,5 +103,8 @@
     </div>
 
     <script src="/js/hodisa.js"></script>
+    <script>
+        document.getElementById('year').innerText = new Date().getFullYear();
+    </script>
 </body>
 </html>
