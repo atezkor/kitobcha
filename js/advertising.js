@@ -9,7 +9,7 @@ addEventListener("DOMContentLoaded", async function () {
 
         advertisings.innerHTML = projects.map(({ title, name, icon, link }) => (
             `
-            <div class="ads-card">
+            <div class="">
                 <a href="${link}" target="_blank" class="">
                     <div class="">
                         <img src="${icon}"
