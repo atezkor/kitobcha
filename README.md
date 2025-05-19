@@ -18,8 +18,6 @@ Kitob betlarini sahifalash uchun oddiy dastur!
 * [XML-sitemaps](https://www.xml-sitemaps.com/) Just enter your website URL to create a sitemap
 
 ## Havolalar
-* [Kitobcha](https://kitobcha.joriy.uz/) - Ishlatish uchun (mahsulot talqini)
-
 
 ## Muammolar
 - [Submodule](https://stackoverflow.com/questions/36554810/how-to-link-folder-from-a-git-repo-to-another-repo)
