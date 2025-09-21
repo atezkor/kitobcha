@@ -1,6 +1,6 @@
 addEventListener("DOMContentLoaded", async function () {
     try {
-        const res = await fetch(API_URL.concat("/projects.json"));
+        const res = await fetch(API_URL.concat("/api/projects"));
         const projects = await res.json()
 
         const ads = document.getElementById("ads");
